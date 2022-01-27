@@ -130,6 +130,7 @@ html {
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
 }
 
 h1 {
@@ -163,13 +164,152 @@ header {
   align-items: baseline;
 }
 
-header nav {
-
-  /* position: fixed; */
+.middle img {
+  width: 70rem;
+  height: 50rem;
+  padding: 1%;
   /* border: 1px solid black; */
 }
 
-#top {
-    height: 55vh;
-    background-image: url("");
+.middletext h2 {
+  font-size: 5rem;
+  /* border: 1px solid black; */
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
 }
+
+.middletext {
+  font-size: 2rem;
+  width: 70%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 1%;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.middlec {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  /* border: 1px solid black; */
+}
+
+.middle {
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+  }
+  
+  .middleimage {
+    /* flex: 1; */
+    /* border: 2px solid blueviolet; */
+    margin: 10px;
+  }
+  
+  .middleimage {
+    margin-right: 20px;
+  }
+
+  .middletext p {
+      padding-top: 5rem;
+  }
+
+  .middletext button {
+      padding: 3%;
+  }
+
+  .middletext h2 {
+      padding-bottom: 3.5rem;
+  }
+
+  .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+
+  .gallery div {
+    width: 40%;
+    height: 40vh;
+    margin: 4% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+  }
+  .gallery div .hide {
+    width: 70%;
+    height: 10vh;
+    background-color: #fff;
+    display: none;
+  }
+  .gallery div .hide h2 {
+    font-size: 2.2rem;
+  }
+  .gallery div:hover .hide {
+    display: block;
+  }
+
+  .num1 {
+    background-image: url("https://picsum.photos/id/1/1500/1500");
+  }
+  .num2 {
+    background-image: url("https://picsum.photos/id/1/1500/1500");
+  }
+  .num3 {
+    background-image: url("https://picsum.photos/id/1/1500/1500");
+  }
+  .num4 {
+    background-image: url("https://picsum.photos/id/1/1500/1500");
+  }
+  .num5 {
+    background-image: url("https://picsum.photos/id/1/1500/1500");
+  }
+  .num6 {
+    background-image: url("https://picsum.photos/id/1/1500/1500");
+  }
+  #likeme {
+      font-size: 5rem;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      /* border: 1px solid black; */
+      /* width: 7rem; */
+      padding: 2%;
+  }
+  .button {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+  }
+
+  #contactme {
+      /* display: flex;
+      justify-content: center;
+      flex-wrap: wrap; */
+      border: 1px solid black;
+      height: 32rem;
+      background-color: lightgray;
+  }
+
+  .footer #contactme {
+      height: 40rem;
+      /* border: 1px solid black; */
+  }
+
+  .bottomnav {
+      display: flex;
+      justify-content: center;
+      padding: 1%;
+  }
+
+  .copyright {
+      display: flex;
+      justify-content: center;
+      padding: 2%;
+  }
