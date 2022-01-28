@@ -1,1 +1,326 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  max width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 1.8rem;
+  color: #4f4f4f;
+}
+
+h1,h2 {
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+section {
+  padding: 4% 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.title {
+  width: 50%;
+  display: flex;
+  padding: .7%;
+  margin-left: 5%;
+}
+
+.links {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header {
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+  display: flex;
+  text-align: center;
+  display:flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  align-content: center;
+  /* border:1px solid black; */
+  /* padding: 0 10%; */
+
+}
+
+.heading {
+  display: flex;
+  /* height: 100%; */
+    margin-left: 5% ;
+}
+
+.info {
+  padding-right: 5%;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.info h2 {
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+.info button {
+/* my projects button */
+  height: 100%;
+}
+
+.info p {
+  padding-top: 5%;
+}
+
+
+.heading img {
+  width: 80%;
+
+}
+
+.projects {
+  height: 150vh;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.projects p {
+  text-align: center;
+
+}
+
+.projects div {
+  width: 50%;
+  
+}
+
+.num1 {
+  background-image: url("../assets/igor-miske-5T-iTlsI7N8-unsplash.jpg");
+  width: 7%;
+  height: 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.num2 {
+  background-image: url("../assets/igor-miske-bsMFZ1957Zg-unsplash.jpg");
+  width: 7%;
+  height: 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.num3 {
+  background-image: url("../assets/igor-miske-Px3iBXV-4TU-unsplash.jpg");
+  width: 7%;
+  height: 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.num4 {
+  background-image: url("../assets/igor-miske-tu-fuTiOAI4-unsplash.jpg");
+  width: 7%;
+  height: 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.num5 {
+  background-image: url("../assets/igor-miske-5T-iTlsI7N8-unsplash.jpg");
+  width: 7%;
+  height: 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.num6 {
+  background-image: url("../assets/le-buzz-KiEiI2b9GkU-unsplash.jpg");
+  width: 7%;
+  height: 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* footer */
+
+
+footer {
+    padding: 4% 0;
+    background-color: lightgray;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+.contact {
+  text-align: center;
+}
+
+.bottomnav{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media(max-width:800px){
+  nav {
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  .title {
+    margin-left: 0%;
+    margin: auto;
+    width: auto;
+
+  }
+  
+  .links {
+    flex-direction: column;
+    width: 40%;
+  }
+  header {
+    padding-top: 26vh;
+    margin-bottom: 10vh;
+    align-content: center;
+    flex-direction: column;
+    padding-bottom: 0vh;
+  }
+  header img {
+    height: 60%;
+    margin: auto;
+    display:flex;
+    align-content: center;
+  }
+
+  .heading {
+    margin-left: 0% ;
+    margin: auto;
+
+  }
+
+  .info {
+    margin: auto;
+    align-items: center;
+    padding-right: 0%;
+    margin: 3%;
+  }
+
+  .projects {
+    height: 100vh;
+    /* padding: 10%; */
+  }
+
+  .projects div{
+    height: 25%;
+    /* padding-bottom: 2%; */
+  }
+
+}
+
+@media(max-width:500px){
+  .info p {
+    margin: 10%;
+    /* border: 10px solid black; */
+  }
+
+  .projects {
+    height: 75vh;
+    /* padding: 10%; */
+  }
+
+  .projects div{
+    height: 25%;
+    padding-bottom: 2%;
+  }
+
+}
